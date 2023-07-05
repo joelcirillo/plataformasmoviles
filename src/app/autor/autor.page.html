@@ -1,0 +1,23 @@
+<ion-header  [translucent]="true">
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Autor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-avatar slot="start">
+      <img alt="Silhouette of a person's head" src="https://www.biografiasyvidas.com/biografia/s/fotos/saint_exupery.jpg" />
+    </ion-avatar>
+    <ion-label> Antoine de Saint-Exupéry </ion-label>
+    
+    <ion-button routerLink="/cv">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      <ion-label>CV</ion-label>
+    </ion-button>
+  </ion-item>
+  
+</ion-content>
